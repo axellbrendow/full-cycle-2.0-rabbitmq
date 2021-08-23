@@ -26,3 +26,9 @@ Note that when I create the new queue and connect it to the exchange setting the
 
 ![Message sending animation](./1producer-1exchange-2queue-3consumer.gif)
 
+### 1 Producer, 1 Exchange in fanout mode, 3 Queues and 4 Consumers
+
+Note that the exchange in fanout mode sends the messages to all queues connected to them. Also, as I created a queue without anyone consuming it's messages, it started to accumulate the messages and as soon as I created the consumer for it, the queue started to be emptied.
+
+![Message sending animation](./1producer-1_fanout_exchange-3queue-4consumer.gif)
+
