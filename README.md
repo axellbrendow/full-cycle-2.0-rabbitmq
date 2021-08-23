@@ -8,3 +8,9 @@ In RabbitMQ, you can use the same TCP connection to receive and send messages. T
 
 ![Only one persistent connection between client and server doing multiplexing](./rabbitmq-tcp-connection-multiplexing.png)
 
+## Examples using [RabbitMQ Simulator](http://tryrabbitmq.com/)
+
+### 1 Producer, 1 Exchange, 1 Queue and 1 Consumer
+
+![Message sending animation](./1producer-1exchange-1queue-1consumer.gif)
+
