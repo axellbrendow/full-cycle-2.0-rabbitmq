@@ -20,3 +20,9 @@ As both consumers are subscribed to the same queue, when one consumer get a mess
 
 ![Message sending animation](./1producer-1exchange-1queue-2consumer.gif)
 
+### 1 Producer, 1 Exchange, 2 Queues and 3 Consumers
+
+Note that when I create the new queue and connect it to the exchange setting the routing key as y, when I change the producer routing key to y, the messages only go to the queue y.
+
+![Message sending animation](./1producer-1exchange-2queue-3consumer.gif)
+
