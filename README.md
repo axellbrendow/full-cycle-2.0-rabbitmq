@@ -32,3 +32,8 @@ Note that the exchange in fanout mode sends the messages to all queues connected
 
 ![Message sending animation](./1producer-1_fanout_exchange-3queue-4consumer.gif)
 
+### 1 Producer, 1 Exchange in topic mode, 3 Queues and 4 Consumers
+
+Note that the exchange in topic mode sends the messages to all connections that match a pattern.
+
+![Message sending animation](./1producer-1_topic_exchange-3queue-4consumer.gif)
